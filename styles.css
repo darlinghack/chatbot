@@ -1,0 +1,28 @@
+#chat-container {
+    width: 300px;
+    
+    margin: 50px auto;
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    opacity: o.2;
+}
+
+#chat-display {
+    height: 200px;
+    overflow-y: scroll;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+    color: aliceblue;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+}
+
+button {
+    width: 50px;
+}
